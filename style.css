@@ -1,0 +1,57 @@
+
+  
+body {
+  background-image: linear-gradient(#fff,#fff9b1 , #fff9b1);
+}
+.hifi{
+  max-height: 200px ;
+  max-width:  338px
+  
+}
+.hg{
+  max-width: 310;
+  max-height: 200;
+}
+.ff{
+  font-size: 15px;
+  text-align: center;
+}
+.gv {
+  height: 30px;
+  color: red;
+  padding-top: 5px;
+  width: 100%;
+  
+  background-color: red;
+  
+}
+.flex-container{
+  display: flex;
+  align-content: center;
+  color: #fff;
+  justify-content:space-around; 
+}
+.u{
+  font-size: 9px;
+}
+.v{
+  font-size: 9px
+}
+.w{
+  font-size:  9px;
+}
+ @media (min-width:960px){
+  .hifi {
+    max-width: 800;
+    max-height: 660 ;
+    
+    float: right;
+  }
+  .hg{
+    max-width: 800;
+    max-height: 660;
+  }
+  .gv{
+    height: 38px;
+  }
+} 
